@@ -1,39 +1,43 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# akar_icons
+The [Akar Icons](https://akaricons.com/) Icon pack available as set of Flutter Icons.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+Based on Akar Icons Fonts 1.1.9. See [fonts](https://github.com/artcoholic/akar-icons-fonts/tree/main/src/fonts/).
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+👍 Like us on [pub.dev](https://pub.dev/packages/akar_icons)!
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+<a href="https://akaricons.com" target="_blank">
+  <img alt="akar icons" src="https://repository-images.githubusercontent.com/306119910/c3a57000-2be0-11eb-88a2-2714f9bafcd4">
+</a>
 
-## Features
+## Installation
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```yaml
+  akar_icons: 1.1.9
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+import 'package:akar_icons/akar_icons.dart';
+
+class MyWidget extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return new IconButton(
+      // Use the AkarIcons class for the IconData
+      icon: new Icon(AkarIcons.sword),
+      onPressed: () { print('Using the sword'); }
+    );
+  }
+}
 ```
 
-## Additional information
+## Author
+Arturo Wibawa ([@agwibawa](https://twitter.com/agwibawa))
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+## License
+[MIT License](./LICENSE), Copyright © 2020-present Arturo Wibawa.
+
+## Credits
+Flutter Support by [Alann Maulana](https://github.com/alann-maulana)
