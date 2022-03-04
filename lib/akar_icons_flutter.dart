@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
-library akar_icons;
+library akar_icons_flutter;
 
 import 'package:flutter/widgets.dart';
 
@@ -8,7 +8,7 @@ class AkarIcons {
   AkarIcons._();
 
   static const _kFontFam = 'AkarIcons';
-  static const String? _kFontPkg = 'akar_icons';
+  static const String? _kFontPkg = 'akar_icons_flutter';
 
   static const IconData air = IconData(0xf101, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData airplay_audio = IconData(0xf102, fontFamily: _kFontFam, fontPackage: _kFontPkg);

@@ -20,7 +20,7 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 ## Usage
 
 ```dart
-import 'package:akar_icons/akar_icons.dart';
+import 'package:akar_icons_flutter/akar_icons_flutter.dart';
 
 class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
