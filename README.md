@@ -1,7 +1,7 @@
 # akar_icons_flutter
 The [Akar Icons](https://akaricons.com/) Icon pack available as set of Flutter Icons.
 
-Based on Akar Icons Fonts 1.1.9. See [fonts](https://github.com/artcoholic/akar-icons-fonts/tree/main/src/fonts/).
+Based on Akar Icons Fonts 1.1.11. See [fonts](https://github.com/artcoholic/akar-icons-fonts/tree/main/src/fonts/).
 
 👍 Like us on [pub.dev](https://pub.dev/packages/akar_icons_flutter)!
 
@@ -14,7 +14,7 @@ Based on Akar Icons Fonts 1.1.9. See [fonts](https://github.com/artcoholic/akar-
 In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
-  akar_icons_flutter: 1.1.9
+  akar_icons_flutter: 1.1.11
 ```
 
 ## Usage
