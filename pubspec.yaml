@@ -1,6 +1,6 @@
 name: akar_icons_flutter
 description: Perfectly rounded icon library made for designers and developers.
-version: 1.1.16
+version: 1.1.21
 homepage: https://github.com/alann-maulana/akar_icons_flutter
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  flutter_lints: ^3.0.1
 
 flutter:
   fonts:

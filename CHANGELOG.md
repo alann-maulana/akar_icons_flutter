@@ -1,3 +1,7 @@
+## 1.1.21
+
+* Update to font version 1.1.21.
+
 ## 1.1.16
 
 * Update to font version 1.1.16.
